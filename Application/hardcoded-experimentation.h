@@ -12,24 +12,34 @@
 #define HARDCODED_EXPERIMENTATION_H
 
 #include <stdint.h>
-#include "../../ndn-lite/app-support/bootstrapping/secure-sign-on/sign-on-basic-client-consts.h"
-#include "../../ndn-lite/app-support/bootstrapping/secure-sign-on/variants/ecc_256/sign-on-basic-ecc-256-consts.h"
 
-#define BOARD_1
-//#define BOARD_2
+// first integer requires no padding, second integer requires padding
+extern uint32_t test_sig_1_asn_encoded_probe_length_expected;
+extern uint8_t test_sig_1[48];
+extern uint8_t test_sig_1_asn_encoded_expected[47];
+extern uint8_t test_sig_1_decoded[40];
+extern uint8_t test_sig_1_decoded_expected[40];
 
-extern const uint8_t DEVICE_IDENTIFIER[SIGN_ON_BASIC_CLIENT_DEVICE_IDENTIFIER_MAX_LENGTH];
+// first integer requires padding, second integer requires no padding
+extern uint32_t test_sig_2_asn_encoded_probe_length_expected;
+extern uint8_t test_sig_2[48];
+extern uint8_t test_sig_2_asn_encoded_expected[47];
+extern uint8_t test_sig_2_decoded[40];
+extern uint8_t test_sig_2_decoded_expected[40];
 
-extern const uint8_t DEVICE_CAPABILITIES[SIGN_ON_BASIC_CLIENT_DEVICE_CAPABILITIES_MAX_LENGTH];
+// first integer requires no padding, second integer requires no padding
+extern uint32_t test_sig_3_asn_encoded_probe_length_expected;
+extern uint8_t test_sig_3[48];
+extern uint8_t test_sig_3_asn_encoded_expected[46];
+extern uint8_t test_sig_3_decoded[40];
+extern uint8_t test_sig_3_decoded_expected[40];
 
-// these are the raw 32 bytes of the bootstrapping ecc private key (raw format is the format
-// used and output by the micro-ecc library)
-extern const uint8_t BOOTSTRAP_ECC_PRIVATE[32];
+// first integer requires padding, second integer requires padding
+extern uint32_t test_sig_4_asn_encoded_probe_length_expected;
+extern uint8_t test_sig_4[48];
+extern uint8_t test_sig_4_asn_encoded_expected[48];
+extern uint8_t test_sig_4_decoded[40];
+extern uint8_t test_sig_4_decoded_expected[40];
 
-// these are the raw key bytes of the ecc public key without
-// the point identifier
-extern const uint8_t BOOTSTRAP_ECC_PUBLIC_NO_POINT_IDENTIFIER[64];
-
-extern const uint8_t SECURE_SIGN_ON_CODE[SIGN_ON_BASIC_ECC_256_SECURE_SIGN_ON_CODE_LENGTH];
 
 #endif // HARDCODED_EXPERIMENTATION_H

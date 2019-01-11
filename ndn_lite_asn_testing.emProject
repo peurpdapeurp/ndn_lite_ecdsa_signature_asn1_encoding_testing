@@ -302,6 +302,11 @@
         <file file_name="Application/app-init-files/app_initialization_functions.h" />
       </folder>
       <file file_name="Application/main.c" />
+      <file file_name="Application/hardcoded-experimentation.c" />
+      <file file_name="Application/hardcoded-experimentation.h" />
+      <file file_name="Application/asdf..c" />
+      <file file_name="Application/test_functions.c" />
+      <file file_name="Application/test_functions.h" />
     </folder>
     <folder Name="ndn-lite">
       <file file_name="../ndn-lite/ndn-constants.h" />

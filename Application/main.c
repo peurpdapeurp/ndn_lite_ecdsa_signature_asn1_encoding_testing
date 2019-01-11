@@ -10,15 +10,13 @@
 
 #include "../../ndn-lite/security/ndn-lite-sec-utils.h"
 
-uint8_t test_sig[48] = {0x01, 0x19, 0x18, 0x17, 0x16, 0x15, 0x14, 0x13, 0x12, 0x11,
-                        0x10, 0x09, 0x08, 0x07, 0x06, 0x05, 0x04, 0x03, 0x02, 0x01,
-                        
-                        0xF2, 0x01, 0x02, 0x03, 0x04, 0x05, 0x06, 0x07, 0x08, 0x09,
-                        0x10, 0x11, 0x12, 0x13, 0x14, 0x15, 0x16, 0x17, 0x18, 0x19,
-                        
-                        0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00};
+#include "hardcoded-experimentation.h"
+#include "test_functions.h"
 
-uint8_t test_decoded_sig[40];
+bool test_sig_1_passed = false;
+bool test_sig_2_passed = false;
+bool test_sig_3_passed = false;
+bool test_sig_4_passed = false;
 
 /**@brief Function for application main entry.
  */
@@ -37,37 +35,51 @@ int main(void) {
   // Initialize power management.
   power_management_init();
 
-  uint32_t asn1_encoded_sig_len = 0; 
-  int ret_val = 0;
-  ret_val = ndn_asn1_probe_ecdsa_signature_encoding_size(test_sig, 40, &asn1_encoded_sig_len);
+  run_test("test_sig_1", 
+            test_sig_1, 40, sizeof(test_sig_1), 
+            test_sig_1_decoded, sizeof(test_sig_1_decoded),
+            test_sig_1_asn_encoded_probe_length_expected, 
+            test_sig_1_asn_encoded_expected, sizeof(test_sig_1_asn_encoded_expected), 
+            test_sig_1_decoded_expected, sizeof(test_sig_1_decoded_expected),
+            &test_sig_1_passed);
 
-  if (ret_val == NDN_SUCCESS) {
-    APP_LOG("Probing of test signature ASN1 encoding length success, length: %d\n", asn1_encoded_sig_len);
+  run_test("test_sig_2", 
+            test_sig_2, 40, sizeof(test_sig_2), 
+            test_sig_2_decoded, sizeof(test_sig_2_decoded),
+            test_sig_2_asn_encoded_probe_length_expected, 
+            test_sig_2_asn_encoded_expected, sizeof(test_sig_2_asn_encoded_expected), 
+            test_sig_2_decoded_expected, sizeof(test_sig_2_decoded_expected),
+            &test_sig_2_passed);
+
+  run_test("test_sig_3", 
+            test_sig_3, 40, sizeof(test_sig_3), 
+            test_sig_3_decoded, sizeof(test_sig_3_decoded),
+            test_sig_3_asn_encoded_probe_length_expected, 
+            test_sig_3_asn_encoded_expected, sizeof(test_sig_3_asn_encoded_expected), 
+            test_sig_3_decoded_expected, sizeof(test_sig_3_decoded_expected),
+            &test_sig_3_passed);
+
+  run_test("test_sig_4", 
+            test_sig_4, 40, sizeof(test_sig_4), 
+            test_sig_4_decoded, sizeof(test_sig_4_decoded),
+            test_sig_4_asn_encoded_probe_length_expected, 
+            test_sig_4_asn_encoded_expected, sizeof(test_sig_4_asn_encoded_expected), 
+            test_sig_4_decoded_expected, sizeof(test_sig_4_decoded_expected),
+            &test_sig_4_passed);
+
+  APP_LOG("Results of all tests:\n");
+  APP_LOG("test_sig_1: %d\n", test_sig_1_passed);
+  APP_LOG("test_sig_2: %d\n", test_sig_2_passed);
+  APP_LOG("test_sig_3: %d\n", test_sig_3_passed);
+  APP_LOG("test_sig_4: %d\n", test_sig_4_passed);
+  if (test_sig_1_passed &&
+      test_sig_2_passed &&
+      test_sig_3_passed &&
+      test_sig_4_passed) {
+    APP_LOG("ALL TESTS PASSED.\n");
   }
   else {
-    APP_LOG("Probing of test signature ASN1 encoding length failed, error code: %d\n", ret_val);
-  }
-
-  ret_val = ndn_asn1_encode_ecdsa_signature(test_sig, 40, sizeof(test_sig));
-  
-  if (ret_val == NDN_SUCCESS) {
-    APP_LOG("ASN1 encoding of test signature success.\n");
-    APP_LOG_HEX("Value of ASN1 encoded test signature:", test_sig, asn1_encoded_sig_len);
-  }
-  else {
-    APP_LOG("ASN1 encoding of test signature failed, error code: %d\n", ret_val);
-  }
-
-  uint32_t decoded_sig_len = 0;
-  ret_val = ndn_asn1_decode_ecdsa_signature(test_sig, asn1_encoded_sig_len, test_decoded_sig, sizeof(test_decoded_sig),
-                                            &decoded_sig_len);
-
-  if (ret_val == NDN_SUCCESS) {
-    APP_LOG("ASN1 decoding of test signature success.\n");
-    APP_LOG_HEX("Value of decoded test signature:", test_decoded_sig, decoded_sig_len);
-  }
-  else {
-    APP_LOG("ASN1 decoding of test signature failed, error code: %d\n", ret_val);
+    APP_LOG("ONE OR MORE TESTS FAILED.\n");
   }
 
 }
