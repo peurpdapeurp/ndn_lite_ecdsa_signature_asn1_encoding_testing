@@ -60,19 +60,19 @@
   <Watches active="0" update="Never"/>
  </Watch4>
  <Files>
-  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="22" useTextEdit="1" useBinaryEdit="0" left="0" path="Application/main.c" selected="0" top="15" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="25" useTextEdit="1" useBinaryEdit="0" left="0" path="Application/main.c" selected="1" top="18" codecName="Default"/>
   <SessionOpenFile windowGroup="DockEditLeft" x="3" y="167" useTextEdit="1" useBinaryEdit="0" left="0" path="../ndn-lite/security/ndn-lite-sec-utils.c" selected="0" top="273" codecName="Default"/>
   <SessionOpenFile windowGroup="DockEditLeft" x="0" y="0" useTextEdit="1" useBinaryEdit="0" left="0" path="../ndn-lite/app-support/bootstrapping/secure-sign-on/sign-on-basic-client.c" selected="0" top="12" codecName="Default"/>
   <SessionOpenFile windowGroup="DockEditLeft" x="0" y="0" useTextEdit="1" useBinaryEdit="0" left="0" path="../ndn-lite/security/ndn-lite-sec-config.c" selected="0" top="0" codecName="Default"/>
-  <SessionOpenFile windowGroup="DockEditLeft" x="49" y="39" useTextEdit="1" useBinaryEdit="0" left="0" path="Application/hardcoded-experimentation.h" selected="0" top="27" codecName="Default"/>
-  <SessionOpenFile windowGroup="DockEditLeft" x="9" y="135" useTextEdit="1" useBinaryEdit="0" left="0" path="Application/hardcoded-experimentation.c" selected="1" top="130" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="82" y="54" useTextEdit="1" useBinaryEdit="0" left="0" path="Application/hardcoded-experimentation.h" selected="0" top="40" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="3" y="180" useTextEdit="1" useBinaryEdit="0" left="0" path="Application/hardcoded-experimentation.c" selected="0" top="184" codecName="Default"/>
   <SessionOpenFile windowGroup="DockEditLeft" x="0" y="0" useTextEdit="1" useBinaryEdit="0" left="0" path="Application/asdf..c" selected="0" top="0" codecName="Default"/>
   <SessionOpenFile windowGroup="DockEditLeft" x="41" y="9" useTextEdit="1" useBinaryEdit="0" left="0" path="Application/test_functions.h" selected="0" top="0" codecName="Default"/>
-  <SessionOpenFile windowGroup="DockEditLeft" x="65" y="41" useTextEdit="1" useBinaryEdit="0" left="0" path="Application/test_functions.c" selected="0" top="31" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="65" y="41" useTextEdit="1" useBinaryEdit="0" left="0" path="Application/test_functions.c" selected="0" top="37" codecName="Default"/>
   <SessionOpenFile windowGroup="DockEditLeft" x="0" y="0" useTextEdit="1" useBinaryEdit="0" left="0" path="Application/sdk_config.h" selected="0" top="0" codecName="Default"/>
   <SessionOpenFile windowGroup="DockEditLeft" x="0" y="0" useTextEdit="1" useBinaryEdit="0" left="0" path="../ndn-lite/ndn-error-code.h" selected="0" top="78" codecName="Default"/>
   <SessionOpenFile windowGroup="DockEditLeft" x="0" y="9" useTextEdit="1" useBinaryEdit="0" left="0" path="../ndn-lite/adaptation/ndn-nrf-ble-adaptation/logger.h" selected="0" top="0" codecName="Default"/>
-  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="91" useTextEdit="1" useBinaryEdit="0" left="0" path="../ndn-lite/ndn-constants.h" selected="0" top="77" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="45" y="104" useTextEdit="1" useBinaryEdit="0" left="0" path="../ndn-lite/ndn-constants.h" selected="0" top="86" codecName="Default"/>
   <SessionOpenFile windowGroup="DockEditLeft" x="0" y="55" useTextEdit="1" useBinaryEdit="0" left="0" path="C:/Program Files/SEGGER/SEGGER Embedded Studio for ARM 4.10/include/stdint.h" selected="0" top="43" codecName="Default"/>
  </Files>
  <ARMCrossStudioWindow activeProject="ndn_lite_asn_testing" fileDialogDefaultFilter="" autoConnectTarget="J-Link" buildConfiguration="Debug" debugSearchFileMap="" fileDialogInitialDirectory="C:/Users/edwar/Desktop/ndn-lite-work/ndn-lite-asn-testing/Application" debugSearchPath="" autoConnectCapabilities="3711"/>

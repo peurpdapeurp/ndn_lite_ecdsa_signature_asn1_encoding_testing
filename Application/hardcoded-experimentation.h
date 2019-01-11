@@ -12,34 +12,67 @@
 #define HARDCODED_EXPERIMENTATION_H
 
 #include <stdint.h>
+#include "../../ndn-lite/ndn-constants.h"
 
+// testing the minimum signature size
+////////////////////////////////////////////////////////////////////////////////////////
 // first integer requires no padding, second integer requires padding
 extern uint32_t test_sig_1_asn_encoded_probe_length_expected;
-extern uint8_t test_sig_1[48];
-extern uint8_t test_sig_1_asn_encoded_expected[47];
-extern uint8_t test_sig_1_decoded[40];
-extern uint8_t test_sig_1_decoded_expected[40];
+extern uint8_t test_sig_1[NDN_ASN1_ECDSA_SECP160R1_MAX_ENCODED_SIG_SIZE];
+extern uint8_t test_sig_1_asn_encoded_expected[NDN_ASN1_ECDSA_SECP160R1_MAX_ENCODED_SIG_SIZE - 1];
+extern uint8_t test_sig_1_decoded[NDN_ASN1_ECDSA_SECP160R1_RAW_SIG_SIZE];
+extern uint8_t test_sig_1_decoded_expected[NDN_ASN1_ECDSA_SECP160R1_RAW_SIG_SIZE];
 
 // first integer requires padding, second integer requires no padding
 extern uint32_t test_sig_2_asn_encoded_probe_length_expected;
-extern uint8_t test_sig_2[48];
-extern uint8_t test_sig_2_asn_encoded_expected[47];
-extern uint8_t test_sig_2_decoded[40];
-extern uint8_t test_sig_2_decoded_expected[40];
+extern uint8_t test_sig_2[NDN_ASN1_ECDSA_SECP160R1_MAX_ENCODED_SIG_SIZE];
+extern uint8_t test_sig_2_asn_encoded_expected[NDN_ASN1_ECDSA_SECP160R1_MAX_ENCODED_SIG_SIZE - 1];
+extern uint8_t test_sig_2_decoded[NDN_ASN1_ECDSA_SECP160R1_RAW_SIG_SIZE];
+extern uint8_t test_sig_2_decoded_expected[NDN_ASN1_ECDSA_SECP160R1_RAW_SIG_SIZE];
 
 // first integer requires no padding, second integer requires no padding
 extern uint32_t test_sig_3_asn_encoded_probe_length_expected;
-extern uint8_t test_sig_3[48];
-extern uint8_t test_sig_3_asn_encoded_expected[46];
-extern uint8_t test_sig_3_decoded[40];
-extern uint8_t test_sig_3_decoded_expected[40];
+extern uint8_t test_sig_3[NDN_ASN1_ECDSA_SECP160R1_MAX_ENCODED_SIG_SIZE];
+extern uint8_t test_sig_3_asn_encoded_expected[NDN_ASN1_ECDSA_SECP160R1_MAX_ENCODED_SIG_SIZE - 2];
+extern uint8_t test_sig_3_decoded[NDN_ASN1_ECDSA_SECP160R1_RAW_SIG_SIZE];
+extern uint8_t test_sig_3_decoded_expected[NDN_ASN1_ECDSA_SECP160R1_RAW_SIG_SIZE];
 
 // first integer requires padding, second integer requires padding
 extern uint32_t test_sig_4_asn_encoded_probe_length_expected;
-extern uint8_t test_sig_4[48];
-extern uint8_t test_sig_4_asn_encoded_expected[48];
-extern uint8_t test_sig_4_decoded[40];
-extern uint8_t test_sig_4_decoded_expected[40];
+extern uint8_t test_sig_4[NDN_ASN1_ECDSA_SECP160R1_MAX_ENCODED_SIG_SIZE];
+extern uint8_t test_sig_4_asn_encoded_expected[NDN_ASN1_ECDSA_SECP160R1_MAX_ENCODED_SIG_SIZE];
+extern uint8_t test_sig_4_decoded[NDN_ASN1_ECDSA_SECP160R1_RAW_SIG_SIZE];
+extern uint8_t test_sig_4_decoded_expected[NDN_ASN1_ECDSA_SECP160R1_RAW_SIG_SIZE];
+////////////////////////////////////////////////////////////////////////////////////////
 
+// testing the maximum signature size
+////////////////////////////////////////////////////////////////////////////////////////
+// first integer requires no padding, second integer requires padding
+extern uint32_t test_sig_5_asn_encoded_probe_length_expected;
+extern uint8_t test_sig_5[NDN_ASN1_ECDSA_SECP256R1_MAX_ENCODED_SIG_SIZE];
+extern uint8_t test_sig_5_asn_encoded_expected[NDN_ASN1_ECDSA_SECP256R1_MAX_ENCODED_SIG_SIZE - 1];
+extern uint8_t test_sig_5_decoded[NDN_ASN1_ECDSA_SECP256R1_RAW_SIG_SIZE];
+extern uint8_t test_sig_5_decoded_expected[NDN_ASN1_ECDSA_SECP256R1_RAW_SIG_SIZE];
+
+// first integer requires padding, second integer requires no padding
+extern uint32_t test_sig_6_asn_encoded_probe_length_expected;
+extern uint8_t test_sig_6[NDN_ASN1_ECDSA_SECP256R1_MAX_ENCODED_SIG_SIZE];
+extern uint8_t test_sig_6_asn_encoded_expected[NDN_ASN1_ECDSA_SECP256R1_MAX_ENCODED_SIG_SIZE - 1];
+extern uint8_t test_sig_6_decoded[NDN_ASN1_ECDSA_SECP256R1_RAW_SIG_SIZE];
+extern uint8_t test_sig_6_decoded_expected[NDN_ASN1_ECDSA_SECP256R1_RAW_SIG_SIZE];
+
+// first integer requires no padding, second integer requires no padding
+extern uint32_t test_sig_7_asn_encoded_probe_length_expected;
+extern uint8_t test_sig_7[NDN_ASN1_ECDSA_SECP256R1_MAX_ENCODED_SIG_SIZE];
+extern uint8_t test_sig_7_asn_encoded_expected[NDN_ASN1_ECDSA_SECP256R1_MAX_ENCODED_SIG_SIZE - 2];
+extern uint8_t test_sig_7_decoded[NDN_ASN1_ECDSA_SECP256R1_RAW_SIG_SIZE];
+extern uint8_t test_sig_7_decoded_expected[NDN_ASN1_ECDSA_SECP256R1_RAW_SIG_SIZE];
+
+// first integer requires padding, second integer requires padding
+extern uint32_t test_sig_8_asn_encoded_probe_length_expected;
+extern uint8_t test_sig_8[NDN_ASN1_ECDSA_SECP256R1_MAX_ENCODED_SIG_SIZE];
+extern uint8_t test_sig_8_asn_encoded_expected[NDN_ASN1_ECDSA_SECP256R1_MAX_ENCODED_SIG_SIZE];
+extern uint8_t test_sig_8_decoded[NDN_ASN1_ECDSA_SECP256R1_RAW_SIG_SIZE];
+extern uint8_t test_sig_8_decoded_expected[NDN_ASN1_ECDSA_SECP256R1_RAW_SIG_SIZE];
 
 #endif // HARDCODED_EXPERIMENTATION_H
