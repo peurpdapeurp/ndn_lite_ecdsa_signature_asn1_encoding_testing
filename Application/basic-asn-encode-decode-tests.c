@@ -8,7 +8,7 @@
  * See AUTHORS.md for complete list of NDN IOT PKG authors and contributors.
  */
 
-#include "hardcoded-experimentation.h"
+#include "basic-asn-encode-decode-tests.h"
 
 uint32_t test_sig_1_asn_encoded_probe_length_expected = NDN_ASN1_ECDSA_SECP160R1_MAX_ENCODED_SIG_SIZE - 1;
 

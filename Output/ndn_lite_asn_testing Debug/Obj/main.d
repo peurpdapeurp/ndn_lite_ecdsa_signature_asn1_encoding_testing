@@ -93,10 +93,8 @@ Output/ndn_lite_asn_testing\ Debug/Obj/main.o: \
  ../../nRF5_SDK_15.2.0_9412b96/components/boards/pca10056.h \
  ../../nRF5_SDK_15.2.0_9412b96/components/libraries/button/app_button.h \
  C:\Users\edwar\Desktop\ndn-lite-work\ndn-lite-asn-testing\Application\app-init-files/app_definitions.h \
- c:\users\edwar\desktop\ndn-lite-work\ndn-lite\ndn-error-code.h \
- C:/Program\ Files/SEGGER/SEGGER\ Embedded\ Studio\ for\ ARM\ 4.10/include/inttypes.h \
+ C:\Users\edwar\Desktop\ndn-lite-work\ndn-lite-asn-testing\Application\print-helper.h \
+ C:\Users\edwar\Desktop\ndn-lite-work\ndn-lite-asn-testing\Application\basic-asn-encode-decode-tests.h \
  c:\users\edwar\desktop\ndn-lite-work\ndn-lite\ndn-constants.h \
- c:\users\edwar\desktop\ndn-lite-work\ndn-lite\adaptation\ndn-nrf-ble-adaptation\logger.h \
- c:\users\edwar\desktop\ndn-lite-work\ndn-lite\security\ndn-lite-sec-utils.h \
- C:\Users\edwar\Desktop\ndn-lite-work\ndn-lite-asn-testing\Application\hardcoded-experimentation.h \
+ C:\Users\edwar\Desktop\ndn-lite-work\ndn-lite-asn-testing\Application\ecdsa-sig-sign-verify-tests.h \
  C:\Users\edwar\Desktop\ndn-lite-work\ndn-lite-asn-testing\Application\test_functions.h
