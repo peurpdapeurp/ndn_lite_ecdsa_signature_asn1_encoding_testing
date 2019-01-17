@@ -29,10 +29,16 @@ static ndn_name_t test_producer_identity;
 static ndn_ecc_prv_t test_ecc_prv_key;
 static ndn_ecc_pub_t test_ecc_pub_key;
 
-bool check_all_tests_passed(bool *test_results, size_t test_results_len) {
+void print_test_results(bool *test_results, size_t test_results_len) {
+  for (int i = 0; i < test_results_len; i++) {
+    APP_LOG("Value of test %d: %d\n", i, test_results[i]);
+  }
+}
+
+bool check_all_tests_passed(bool *test_results, char **test_names, size_t test_results_len) {
   bool all_tests_passed = true;
   for (int i = 0; i < test_results_len; i++) {
-    APP_LOG("Result of test %d: %d\n", i, test_results[i]);
+    APP_LOG("Result of test %s: %d\n", test_names[i], test_results[i]);
     if (test_results[i] != true) {
       all_tests_passed = false;
     }
@@ -116,8 +122,9 @@ void run_basic_asn_encode_decode_test(const char *test_name,
 }
 
 void run_ecdsa_sig_sign_verify_test(const char *test_name,
-    uint8_t *test_ecc_pub_raw, uint32_t test_ecc_pub_raw_len,
-    uint8_t *test_ecc_prv_raw, uint32_t test_ecc_prv_raw_len,
+    int ndn_ecdsa_curve,
+    const uint8_t *test_ecc_pub_raw, uint32_t test_ecc_pub_raw_len,
+    const uint8_t *test_ecc_prv_raw, uint32_t test_ecc_prv_raw_len,
     bool *test_passed) {
 
   ndn_security_init();
@@ -138,7 +145,7 @@ void run_ecdsa_sig_sign_verify_test(const char *test_name,
       sizeof(test_producer_identity_string));
 
   ndn_ecc_prv_init(&test_ecc_prv_key, test_ecc_prv_raw, test_ecc_prv_raw_len,
-      NDN_ECDSA_CURVE_SECP256R1, test_arbitrary_key_id);
+      ndn_ecdsa_curve, test_arbitrary_key_id);
 
   ret_val = ndn_data_tlv_encode_ecdsa_sign(&test_encoder, &test_data,
       &test_producer_identity, &test_ecc_prv_key);
@@ -148,7 +155,7 @@ void run_ecdsa_sig_sign_verify_test(const char *test_name,
   }
 
   ndn_ecc_pub_init(&test_ecc_pub_key, test_ecc_pub_raw, test_ecc_pub_raw_len,
-      NDN_ECDSA_CURVE_SECP256R1, test_arbitrary_key_id);
+      ndn_ecdsa_curve, test_arbitrary_key_id);
 
   ret_val = ndn_data_tlv_decode_ecdsa_verify(&test_data, test_encoder.output_value,
       test_encoder.offset, &test_ecc_pub_key);

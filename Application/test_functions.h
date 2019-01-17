@@ -9,7 +9,9 @@
 #define TEST_ENCODER_BUFFER_LEN 500
 #define TEST_NUM_NAME_COMPONENTS 5
 
-bool check_all_tests_passed(bool *test_results, size_t test_results_len);
+void print_test_results(bool *test_results, size_t test_results_len);
+
+bool check_all_tests_passed(bool *test_results, char **test_names, size_t test_results_len);
 
 void run_basic_asn_encode_decode_test(const char *test_name,
                                       uint8_t *test_sig, uint32_t test_sig_len, uint32_t test_sig_buf_len,
@@ -20,8 +22,9 @@ void run_basic_asn_encode_decode_test(const char *test_name,
                                       bool *test_passed);
 
 void run_ecdsa_sig_sign_verify_test(const char *test_name,
-                                    uint8_t *test_ecc_pub_raw, uint32_t test_ecc_pub_raw_len,
-                                    uint8_t *test_ecc_prv_raw, uint32_t test_ecc_prv_raw_len,
+                                    int ndn_ecdsa_curve,
+                                    const uint8_t *test_ecc_pub_raw, uint32_t test_ecc_pub_raw_len,
+                                    const uint8_t *test_ecc_prv_raw, uint32_t test_ecc_prv_raw_len,
                                     bool *test_passed);
 
 #endif // TEST_FUNCTIONS_H

@@ -62,5 +62,4 @@ Output/ndn_lite_asn_testing\ Debug/Obj/nrf-sdk-ble-conn-params.o: \
  ../../nRF5_SDK_15.2.0_9412b96/components/libraries/log/src/nrf_log_internal.h \
  ../../nRF5_SDK_15.2.0_9412b96/components/libraries/log/nrf_log_instance.h \
  ../../nRF5_SDK_15.2.0_9412b96/components/libraries/log/nrf_log_types.h \
- ../../nRF5_SDK_15.2.0_9412b96/components/libraries/log/nrf_log_types.h \
- c:\users\edwar\desktop\ndn-lite-work\ndn-lite\adaptation\ndn-nrf-ble-adaptation\nrf-logger.h
+ ../../nRF5_SDK_15.2.0_9412b96/components/libraries/log/nrf_log_types.h

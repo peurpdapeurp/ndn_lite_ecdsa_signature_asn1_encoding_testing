@@ -32,4 +32,5 @@ Output/ndn_lite_asn_testing\ Debug/Obj/data.o: \
  c:\users\edwar\desktop\ndn-lite-work\ndn-lite\security\ndn-lite-rng.h \
  c:\users\edwar\desktop\ndn-lite-work\ndn-lite\security\ndn-lite-sha.h \
  c:\users\edwar\desktop\ndn-lite-work\ndn-lite\ndn-constants.h \
- c:\users\edwar\desktop\ndn-lite-work\ndn-lite\security\ndn-lite-aes.h
+ c:\users\edwar\desktop\ndn-lite-work\ndn-lite\security\ndn-lite-aes.h \
+ C:/Program\ Files/SEGGER/SEGGER\ Embedded\ Studio\ for\ ARM\ 4.10/include/stdio.h

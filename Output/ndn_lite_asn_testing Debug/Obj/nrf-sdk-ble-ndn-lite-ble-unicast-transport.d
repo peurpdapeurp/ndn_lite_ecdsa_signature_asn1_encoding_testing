@@ -85,6 +85,8 @@ Output/ndn_lite_asn_testing\ Debug/Obj/nrf-sdk-ble-ndn-lite-ble-unicast-transpor
  ../../nRF5_SDK_15.2.0_9412b96/components/boards/pca10056.h \
  C:\Users\edwar\Desktop\ndn-lite-work\ndn-lite\adaptation\ndn-nrf-ble-adaptation\nrf-sdk-ble-ndn-lite-ble-unicast-transport\nrf-sdk-ble-ndn-lite-ble-unicast-transport-defs.h \
  c:\users\edwar\desktop\ndn-lite-work\ndn-lite\adaptation\ndn-nrf-ble-adaptation\nrf-sdk-ble-error-check.h \
+ ../../nRF5_SDK_15.2.0_9412b96/components/libraries/util/app_error.h \
+ c:\users\edwar\desktop\ndn-lite-work\ndn-lite\adaptation\ndn-nrf-ble-adaptation\nrf-sdk-ble-consts.h \
  c:\users\edwar\desktop\ndn-lite-work\ndn-lite\adaptation\ndn-nrf-ble-adaptation\nrf-logger.h \
  ../../nRF5_SDK_15.2.0_9412b96/components/libraries/log/nrf_log.h \
  ../../nRF5_SDK_15.2.0_9412b96/components/libraries/experimental_section_vars/nrf_section.h \
@@ -92,7 +94,4 @@ Output/ndn_lite_asn_testing\ Debug/Obj/nrf-sdk-ble-ndn-lite-ble-unicast-transpor
  ../../nRF5_SDK_15.2.0_9412b96/components/libraries/log/src/nrf_log_internal.h \
  ../../nRF5_SDK_15.2.0_9412b96/components/libraries/log/nrf_log_instance.h \
  ../../nRF5_SDK_15.2.0_9412b96/components/libraries/log/nrf_log_types.h \
- ../../nRF5_SDK_15.2.0_9412b96/components/libraries/log/nrf_log_types.h \
- ../../nRF5_SDK_15.2.0_9412b96/components/libraries/util/app_error.h \
- c:\users\edwar\desktop\ndn-lite-work\ndn-lite\adaptation\ndn-nrf-ble-adaptation\nrf-sdk-ble-consts.h \
- c:\users\edwar\desktop\ndn-lite-work\ndn-lite\adaptation\ndn-nrf-ble-adaptation\nrf-logger.h
+ ../../nRF5_SDK_15.2.0_9412b96/components/libraries/log/nrf_log_types.h
