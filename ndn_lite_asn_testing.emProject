@@ -303,14 +303,18 @@
       </folder>
       <file file_name="Application/main.c" />
       <file file_name="Application/asdf..c" />
-      <file file_name="Application/test_functions.c" />
-      <file file_name="Application/test_functions.h" />
       <file file_name="Application/basic-asn-encode-decode-tests.c" />
       <file file_name="Application/basic-asn-encode-decode-tests.h" />
       <file file_name="Application/print-helper.c" />
       <file file_name="Application/print-helper.h" />
       <file file_name="Application/ecdsa-sig-sign-verify-tests.c" />
       <file file_name="Application/ecdsa-sig-sign-verify-tests.h" />
+      <file file_name="Application/ecdsa-sig-sign-verify-tests-def.c" />
+      <file file_name="Application/ecdsa-sig-sign-verify-tests-def.h" />
+      <file file_name="Application/basic-asn-encode-decode-tests-def.c" />
+      <file file_name="Application/basic-asn-encode-decode-tests-def.h" />
+      <file file_name="Application/test-helpers.c" />
+      <file file_name="Application/test-helpers.h" />
     </folder>
     <folder Name="ndn-lite">
       <file file_name="../ndn-lite/ndn-constants.h" />
