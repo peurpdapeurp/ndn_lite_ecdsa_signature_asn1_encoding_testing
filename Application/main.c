@@ -30,13 +30,13 @@ int main(void) {
 
   uECC_set_rng(ndn_rng);
 
-  uECC_Curve curve = uECC_secp256r1();
+  uECC_Curve curve = uECC_secp192r1();
   int pub_key_size = uECC_curve_public_key_size(curve);
   int pri_key_size = uECC_curve_private_key_size(curve);
   uECC_make_key(test_hack_pub_ecc, test_hack_prv_ecc, curve);
 
-  NRF_APP_LOG_HEX("Public key generated (test hack secp256r1):", test_hack_pub_ecc, pub_key_size);
-  NRF_APP_LOG_HEX("Private key generated (test hack secp256r1):", test_hack_prv_ecc, pri_key_size);
+  NRF_APP_LOG_HEX("Public key generated (test hack secp192r1):", test_hack_pub_ecc, pub_key_size);
+  NRF_APP_LOG_HEX("Private key generated (test hack secp192r1):", test_hack_prv_ecc, pri_key_size);
 
   // Initialize timers.
   timers_init();
