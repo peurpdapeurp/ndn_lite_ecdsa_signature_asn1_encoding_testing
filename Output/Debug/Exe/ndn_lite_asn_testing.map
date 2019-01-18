@@ -23000,7 +23000,7 @@ Discarded input sections
  .debug_macro   0x0000000000000000      0x185 Output/ndn_lite_asn_testing Debug/Obj/print-helper.o
  .debug_macro   0x0000000000000000       0x9a Output/ndn_lite_asn_testing Debug/Obj/print-helper.o
  .debug_macro   0x0000000000000000       0x10 Output/ndn_lite_asn_testing Debug/Obj/print-helper.o
- .debug_line    0x0000000000000000      0x5af Output/ndn_lite_asn_testing Debug/Obj/print-helper.o
+ .debug_line    0x0000000000000000      0x5b1 Output/ndn_lite_asn_testing Debug/Obj/print-helper.o
  .debug_str     0x0000000000000000    0x81b66 Output/ndn_lite_asn_testing Debug/Obj/print-helper.o
  .comment       0x0000000000000000       0x4d Output/ndn_lite_asn_testing Debug/Obj/print-helper.o
  .ARM.attributes
@@ -38072,7 +38072,7 @@ OUTPUT(Output/Debug/Exe/ndn_lite_asn_testing.elf elf32-littlearm)
  .debug_macro   0x000000000001275f       0xb3 Output/ndn_lite_asn_testing Debug/Obj/ndn-lite-rng.o
  .debug_macro   0x0000000000012812       0x8b Output/ndn_lite_asn_testing Debug/Obj/ndn-lite-sec-config.o
 
-.debug_line     0x0000000000000000    0x47f70
+.debug_line     0x0000000000000000    0x47f72
  .debug_line    0x0000000000000000      0xca8 Output/ndn_lite_asn_testing Debug/Obj/nrf_drv_rng.o
  .debug_line    0x0000000000000ca8      0xa0f Output/ndn_lite_asn_testing Debug/Obj/nrf_drv_uart.o
  .debug_line    0x00000000000016b7      0xaf7 Output/ndn_lite_asn_testing Debug/Obj/nrfx_prs.o
@@ -38146,52 +38146,52 @@ OUTPUT(Output/Debug/Exe/ndn_lite_asn_testing.elf elf32-littlearm)
  .debug_line    0x0000000000032a3e      0xc81 Output/ndn_lite_asn_testing Debug/Obj/nrf_sdh_ble.o
  .debug_line    0x00000000000336bf      0x938 Output/ndn_lite_asn_testing Debug/Obj/nrf_sdh_soc.o
  .debug_line    0x0000000000033ff7     0x17b0 Output/ndn_lite_asn_testing Debug/Obj/main.o
- .debug_line    0x00000000000357a7      0x598 Output/ndn_lite_asn_testing Debug/Obj/test-helpers.o
- .debug_line    0x0000000000035d3f      0xa99 Output/ndn_lite_asn_testing Debug/Obj/hmac-sign-verify-tests.o
- .debug_line    0x00000000000367d8      0x151 Output/ndn_lite_asn_testing Debug/Obj/hmac-sign-verify-tests-def.o
- .debug_line    0x0000000000036929      0xb04 Output/ndn_lite_asn_testing Debug/Obj/ecdsa-sign-verify-tests.o
- .debug_line    0x000000000003742d      0x266 Output/ndn_lite_asn_testing Debug/Obj/ecdsa-sign-verify-tests-def.o
- .debug_line    0x0000000000037693      0x10e Output/ndn_lite_asn_testing Debug/Obj/test-secp160r1-def.o
- .debug_line    0x00000000000377a1      0x10e Output/ndn_lite_asn_testing Debug/Obj/test-secp192r1-def.o
- .debug_line    0x00000000000378af      0x10e Output/ndn_lite_asn_testing Debug/Obj/test-secp224r1-def.o
- .debug_line    0x00000000000379bd      0x10e Output/ndn_lite_asn_testing Debug/Obj/test-secp256k1-def.o
- .debug_line    0x0000000000037acb      0x10e Output/ndn_lite_asn_testing Debug/Obj/test-secp256r1-def.o
- .debug_line    0x0000000000037bd9      0x924 Output/ndn_lite_asn_testing Debug/Obj/asn-encode-decode-tests.o
- .debug_line    0x00000000000384fd      0x185 Output/ndn_lite_asn_testing Debug/Obj/asn-encode-decode-tests-def.o
- .debug_line    0x0000000000038682      0xa89 Output/ndn_lite_asn_testing Debug/Obj/sha256-sign-verify-tests.o
- .debug_line    0x000000000003910b      0x159 Output/ndn_lite_asn_testing Debug/Obj/sha256-sign-verify-tests-def.o
- .debug_line    0x0000000000039264     0x12d9 Output/ndn_lite_asn_testing Debug/Obj/nrf-sdk-ble-adv.o
- .debug_line    0x000000000003a53d     0x10bf Output/ndn_lite_asn_testing Debug/Obj/nrf-sdk-ble-gatt.o
- .debug_line    0x000000000003b5fc     0x13f3 Output/ndn_lite_asn_testing Debug/Obj/nrf-sdk-ble-ndn-lite-ble-unicast-service.o
- .debug_line    0x000000000003c9ef     0x1952 Output/ndn_lite_asn_testing Debug/Obj/nrf-sdk-ble-ndn-lite-ble-unicast-transport.o
- .debug_line    0x000000000003e341     0x1143 Output/ndn_lite_asn_testing Debug/Obj/nrf-sdk-ble-scan.o
- .debug_line    0x000000000003f484      0xe20 Output/ndn_lite_asn_testing Debug/Obj/nrf-sdk-ble-stack.o
- .debug_line    0x00000000000402a4      0x8fb Output/ndn_lite_asn_testing Debug/Obj/data.o
- .debug_line    0x0000000000040b9f      0x4b5 Output/ndn_lite_asn_testing Debug/Obj/metainfo.o
- .debug_line    0x0000000000041054      0x405 Output/ndn_lite_asn_testing Debug/Obj/name.o
- .debug_line    0x0000000000041459      0x2ea Output/ndn_lite_asn_testing Debug/Obj/name-component.o
- .debug_line    0x0000000000041743      0x522 Output/ndn_lite_asn_testing Debug/Obj/signature.o
- .debug_line    0x0000000000041c65      0x3e0 Output/ndn_lite_asn_testing Debug/Obj/ndn-lite-aes.o
- .debug_line    0x0000000000042045      0x473 Output/ndn_lite_asn_testing Debug/Obj/ndn-lite-ecc.o
- .debug_line    0x00000000000424b8      0x461 Output/ndn_lite_asn_testing Debug/Obj/ndn-lite-hmac.o
- .debug_line    0x0000000000042919      0x3f2 Output/ndn_lite_asn_testing Debug/Obj/ndn-lite-sha.o
- .debug_line    0x0000000000042d0b      0x482 Output/ndn_lite_asn_testing Debug/Obj/ndn-lite-default-aes-impl.o
- .debug_line    0x000000000004318d      0xa8c Output/ndn_lite_asn_testing Debug/Obj/ndn-lite-default-ecc-impl.o
- .debug_line    0x0000000000043c19      0x510 Output/ndn_lite_asn_testing Debug/Obj/ndn-lite-default-hmac-impl.o
- .debug_line    0x0000000000044129      0x27e Output/ndn_lite_asn_testing Debug/Obj/ndn-lite-default-sha-impl.o
- .debug_line    0x00000000000443a7      0xbd7 Output/ndn_lite_asn_testing Debug/Obj/uECC.o
- .debug_line    0x0000000000044f7e      0x21e Output/ndn_lite_asn_testing Debug/Obj/tc_aes_decrypt.o
- .debug_line    0x000000000004519c      0x26a Output/ndn_lite_asn_testing Debug/Obj/tc_aes_encrypt.o
- .debug_line    0x0000000000045406      0x1cb Output/ndn_lite_asn_testing Debug/Obj/tc_cbc_mode.o
- .debug_line    0x00000000000455d1      0x7d2 Output/ndn_lite_asn_testing Debug/Obj/tc_ecc.o
- .debug_line    0x0000000000045da3      0x1f5 Output/ndn_lite_asn_testing Debug/Obj/tc_hmac.o
- .debug_line    0x0000000000045f98      0x1ff Output/ndn_lite_asn_testing Debug/Obj/tc_hmac_prng.o
- .debug_line    0x0000000000046197      0x292 Output/ndn_lite_asn_testing Debug/Obj/tc_sha256.o
- .debug_line    0x0000000000046429      0x190 Output/ndn_lite_asn_testing Debug/Obj/tc_utils.o
- .debug_line    0x00000000000465b9     0x102d Output/ndn_lite_asn_testing Debug/Obj/ndn-lite-nrf-crypto-rng-impl.o
- .debug_line    0x00000000000475e6      0x28a Output/ndn_lite_asn_testing Debug/Obj/ndn-lite-sec-utils.o
- .debug_line    0x0000000000047870      0x39c Output/ndn_lite_asn_testing Debug/Obj/ndn-lite-rng.o
- .debug_line    0x0000000000047c0c      0x364 Output/ndn_lite_asn_testing Debug/Obj/ndn-lite-sec-config.o
+ .debug_line    0x00000000000357a7      0x59a Output/ndn_lite_asn_testing Debug/Obj/test-helpers.o
+ .debug_line    0x0000000000035d41      0xa99 Output/ndn_lite_asn_testing Debug/Obj/hmac-sign-verify-tests.o
+ .debug_line    0x00000000000367da      0x151 Output/ndn_lite_asn_testing Debug/Obj/hmac-sign-verify-tests-def.o
+ .debug_line    0x000000000003692b      0xb04 Output/ndn_lite_asn_testing Debug/Obj/ecdsa-sign-verify-tests.o
+ .debug_line    0x000000000003742f      0x266 Output/ndn_lite_asn_testing Debug/Obj/ecdsa-sign-verify-tests-def.o
+ .debug_line    0x0000000000037695      0x10e Output/ndn_lite_asn_testing Debug/Obj/test-secp160r1-def.o
+ .debug_line    0x00000000000377a3      0x10e Output/ndn_lite_asn_testing Debug/Obj/test-secp192r1-def.o
+ .debug_line    0x00000000000378b1      0x10e Output/ndn_lite_asn_testing Debug/Obj/test-secp224r1-def.o
+ .debug_line    0x00000000000379bf      0x10e Output/ndn_lite_asn_testing Debug/Obj/test-secp256k1-def.o
+ .debug_line    0x0000000000037acd      0x10e Output/ndn_lite_asn_testing Debug/Obj/test-secp256r1-def.o
+ .debug_line    0x0000000000037bdb      0x924 Output/ndn_lite_asn_testing Debug/Obj/asn-encode-decode-tests.o
+ .debug_line    0x00000000000384ff      0x185 Output/ndn_lite_asn_testing Debug/Obj/asn-encode-decode-tests-def.o
+ .debug_line    0x0000000000038684      0xa89 Output/ndn_lite_asn_testing Debug/Obj/sha256-sign-verify-tests.o
+ .debug_line    0x000000000003910d      0x159 Output/ndn_lite_asn_testing Debug/Obj/sha256-sign-verify-tests-def.o
+ .debug_line    0x0000000000039266     0x12d9 Output/ndn_lite_asn_testing Debug/Obj/nrf-sdk-ble-adv.o
+ .debug_line    0x000000000003a53f     0x10bf Output/ndn_lite_asn_testing Debug/Obj/nrf-sdk-ble-gatt.o
+ .debug_line    0x000000000003b5fe     0x13f3 Output/ndn_lite_asn_testing Debug/Obj/nrf-sdk-ble-ndn-lite-ble-unicast-service.o
+ .debug_line    0x000000000003c9f1     0x1952 Output/ndn_lite_asn_testing Debug/Obj/nrf-sdk-ble-ndn-lite-ble-unicast-transport.o
+ .debug_line    0x000000000003e343     0x1143 Output/ndn_lite_asn_testing Debug/Obj/nrf-sdk-ble-scan.o
+ .debug_line    0x000000000003f486      0xe20 Output/ndn_lite_asn_testing Debug/Obj/nrf-sdk-ble-stack.o
+ .debug_line    0x00000000000402a6      0x8fb Output/ndn_lite_asn_testing Debug/Obj/data.o
+ .debug_line    0x0000000000040ba1      0x4b5 Output/ndn_lite_asn_testing Debug/Obj/metainfo.o
+ .debug_line    0x0000000000041056      0x405 Output/ndn_lite_asn_testing Debug/Obj/name.o
+ .debug_line    0x000000000004145b      0x2ea Output/ndn_lite_asn_testing Debug/Obj/name-component.o
+ .debug_line    0x0000000000041745      0x522 Output/ndn_lite_asn_testing Debug/Obj/signature.o
+ .debug_line    0x0000000000041c67      0x3e0 Output/ndn_lite_asn_testing Debug/Obj/ndn-lite-aes.o
+ .debug_line    0x0000000000042047      0x473 Output/ndn_lite_asn_testing Debug/Obj/ndn-lite-ecc.o
+ .debug_line    0x00000000000424ba      0x461 Output/ndn_lite_asn_testing Debug/Obj/ndn-lite-hmac.o
+ .debug_line    0x000000000004291b      0x3f2 Output/ndn_lite_asn_testing Debug/Obj/ndn-lite-sha.o
+ .debug_line    0x0000000000042d0d      0x482 Output/ndn_lite_asn_testing Debug/Obj/ndn-lite-default-aes-impl.o
+ .debug_line    0x000000000004318f      0xa8c Output/ndn_lite_asn_testing Debug/Obj/ndn-lite-default-ecc-impl.o
+ .debug_line    0x0000000000043c1b      0x510 Output/ndn_lite_asn_testing Debug/Obj/ndn-lite-default-hmac-impl.o
+ .debug_line    0x000000000004412b      0x27e Output/ndn_lite_asn_testing Debug/Obj/ndn-lite-default-sha-impl.o
+ .debug_line    0x00000000000443a9      0xbd7 Output/ndn_lite_asn_testing Debug/Obj/uECC.o
+ .debug_line    0x0000000000044f80      0x21e Output/ndn_lite_asn_testing Debug/Obj/tc_aes_decrypt.o
+ .debug_line    0x000000000004519e      0x26a Output/ndn_lite_asn_testing Debug/Obj/tc_aes_encrypt.o
+ .debug_line    0x0000000000045408      0x1cb Output/ndn_lite_asn_testing Debug/Obj/tc_cbc_mode.o
+ .debug_line    0x00000000000455d3      0x7d2 Output/ndn_lite_asn_testing Debug/Obj/tc_ecc.o
+ .debug_line    0x0000000000045da5      0x1f5 Output/ndn_lite_asn_testing Debug/Obj/tc_hmac.o
+ .debug_line    0x0000000000045f9a      0x1ff Output/ndn_lite_asn_testing Debug/Obj/tc_hmac_prng.o
+ .debug_line    0x0000000000046199      0x292 Output/ndn_lite_asn_testing Debug/Obj/tc_sha256.o
+ .debug_line    0x000000000004642b      0x190 Output/ndn_lite_asn_testing Debug/Obj/tc_utils.o
+ .debug_line    0x00000000000465bb     0x102d Output/ndn_lite_asn_testing Debug/Obj/ndn-lite-nrf-crypto-rng-impl.o
+ .debug_line    0x00000000000475e8      0x28a Output/ndn_lite_asn_testing Debug/Obj/ndn-lite-sec-utils.o
+ .debug_line    0x0000000000047872      0x39c Output/ndn_lite_asn_testing Debug/Obj/ndn-lite-rng.o
+ .debug_line    0x0000000000047c0e      0x364 Output/ndn_lite_asn_testing Debug/Obj/ndn-lite-sec-config.o
 
 .debug_str      0x0000000000000000    0xd41c0
  .debug_str     0x0000000000000000    0x8a4e7 Output/ndn_lite_asn_testing Debug/Obj/nrf_drv_rng.o
