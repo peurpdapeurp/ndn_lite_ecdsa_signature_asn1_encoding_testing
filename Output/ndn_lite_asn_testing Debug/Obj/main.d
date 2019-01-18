@@ -94,6 +94,8 @@ Output/ndn_lite_asn_testing\ Debug/Obj/main.o: \
  ../../nRF5_SDK_15.2.0_9412b96/components/libraries/button/app_button.h \
  C:\Users\edwar\Desktop\ndn-lite-work\ndn-lite-asn-testing\Application\app-init-files/app_definitions.h \
  C:\Users\edwar\Desktop\ndn-lite-work\ndn-lite-asn-testing\Application\print-helper.h \
- C:\Users\edwar\Desktop\ndn-lite-work\ndn-lite-asn-testing\Application\basic-asn-encode-decode-tests/basic-asn-encode-decode-tests.h \
+ C:\Users\edwar\Desktop\ndn-lite-work\ndn-lite-asn-testing\Application\asn-encode-decode-tests/asn-encode-decode-tests.h \
  Application/../../ndn-lite/ndn-constants.h \
- C:\Users\edwar\Desktop\ndn-lite-work\ndn-lite-asn-testing\Application\ecdsa-sig-sign-verify-tests/ecdsa-sig-sign-verify-tests.h
+ C:\Users\edwar\Desktop\ndn-lite-work\ndn-lite-asn-testing\Application\ecdsa-sign-verify-tests/ecdsa-sign-verify-tests.h \
+ C:\Users\edwar\Desktop\ndn-lite-work\ndn-lite-asn-testing\Application\hmac-sign-verify-tests/hmac-sign-verify-tests.h \
+ C:\Users\edwar\Desktop\ndn-lite-work\ndn-lite-asn-testing\Application\sha256-sign-verify-tests/sha256-sign-verify-tests.h
