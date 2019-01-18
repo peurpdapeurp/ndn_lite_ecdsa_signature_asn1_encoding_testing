@@ -1,0 +1,4 @@
+Output/ndn_lite_asn_testing\ Debug/Obj/test-secp224r1-def.o: \
+ C:\Users\edwar\Desktop\ndn-lite-work\ndn-lite-asn-testing\Application\ecdsa-sig-sign-verify-tests\curve-specific\test-secp224r1-def.c \
+ C:\Users\edwar\Desktop\ndn-lite-work\ndn-lite-asn-testing\Application\ecdsa-sig-sign-verify-tests\curve-specific\test-secp224r1-def.h \
+ C:/Program\ Files/SEGGER/SEGGER\ Embedded\ Studio\ for\ ARM\ 4.10/include/stdint.h

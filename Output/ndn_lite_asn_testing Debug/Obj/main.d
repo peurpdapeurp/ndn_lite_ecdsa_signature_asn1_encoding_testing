@@ -94,9 +94,9 @@ Output/ndn_lite_asn_testing\ Debug/Obj/main.o: \
  ../../nRF5_SDK_15.2.0_9412b96/components/libraries/button/app_button.h \
  C:\Users\edwar\Desktop\ndn-lite-work\ndn-lite-asn-testing\Application\app-init-files/app_definitions.h \
  C:\Users\edwar\Desktop\ndn-lite-work\ndn-lite-asn-testing\Application\print-helper.h \
- C:\Users\edwar\Desktop\ndn-lite-work\ndn-lite-asn-testing\Application\basic-asn-encode-decode-tests.h \
- c:\users\edwar\desktop\ndn-lite-work\ndn-lite\ndn-constants.h \
- C:\Users\edwar\Desktop\ndn-lite-work\ndn-lite-asn-testing\Application\ecdsa-sig-sign-verify-tests.h \
+ C:\Users\edwar\Desktop\ndn-lite-work\ndn-lite-asn-testing\Application\basic-asn-encode-decode-tests/basic-asn-encode-decode-tests.h \
+ Application/../../ndn-lite/ndn-constants.h \
+ C:\Users\edwar\Desktop\ndn-lite-work\ndn-lite-asn-testing\Application\ecdsa-sig-sign-verify-tests/ecdsa-sig-sign-verify-tests.h \
  c:\users\edwar\desktop\ndn-lite-work\ndn-lite\security\detail\default-backend\sec-lib\micro-ecc\uecc.h \
  c:\users\edwar\desktop\ndn-lite-work\ndn-lite\security\ndn-lite-sec-config.h \
  c:\users\edwar\desktop\ndn-lite-work\ndn-lite\security\detail/default-backend/ndn-lite-default-sha-impl.h \

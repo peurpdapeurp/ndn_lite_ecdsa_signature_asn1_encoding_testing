@@ -303,18 +303,34 @@
       </folder>
       <file file_name="Application/main.c" />
       <file file_name="Application/asdf..c" />
-      <file file_name="Application/basic-asn-encode-decode-tests.c" />
-      <file file_name="Application/basic-asn-encode-decode-tests.h" />
       <file file_name="Application/print-helper.c" />
       <file file_name="Application/print-helper.h" />
-      <file file_name="Application/ecdsa-sig-sign-verify-tests.c" />
-      <file file_name="Application/ecdsa-sig-sign-verify-tests.h" />
-      <file file_name="Application/ecdsa-sig-sign-verify-tests-def.c" />
-      <file file_name="Application/ecdsa-sig-sign-verify-tests-def.h" />
-      <file file_name="Application/basic-asn-encode-decode-tests-def.c" />
-      <file file_name="Application/basic-asn-encode-decode-tests-def.h" />
       <file file_name="Application/test-helpers.c" />
       <file file_name="Application/test-helpers.h" />
+      <folder Name="ecdsa-sig-sign-verify-tests">
+        <file file_name="Application/ecdsa-sig-sign-verify-tests/ecdsa-sig-sign-verify-tests.c" />
+        <file file_name="Application/ecdsa-sig-sign-verify-tests/ecdsa-sig-sign-verify-tests.h" />
+        <file file_name="Application/ecdsa-sig-sign-verify-tests/ecdsa-sig-sign-verify-tests-def.c" />
+        <file file_name="Application/ecdsa-sig-sign-verify-tests/ecdsa-sig-sign-verify-tests-def.h" />
+        <folder Name="curve-specific">
+          <file file_name="Application/ecdsa-sig-sign-verify-tests/curve-specific/test-secp160r1-def.c" />
+          <file file_name="Application/ecdsa-sig-sign-verify-tests/curve-specific/test-secp160r1-def.h" />
+          <file file_name="Application/ecdsa-sig-sign-verify-tests/curve-specific/test-secp192r1-def.c" />
+          <file file_name="Application/ecdsa-sig-sign-verify-tests/curve-specific/test-secp192r1-def.h" />
+          <file file_name="Application/ecdsa-sig-sign-verify-tests/curve-specific/test-secp224r1-def.c" />
+          <file file_name="Application/ecdsa-sig-sign-verify-tests/curve-specific/test-secp224r1-def.h" />
+          <file file_name="Application/ecdsa-sig-sign-verify-tests/curve-specific/test-secp256r1-def.c" />
+          <file file_name="Application/ecdsa-sig-sign-verify-tests/curve-specific/test-secp256r1-def.h" />
+          <file file_name="Application/ecdsa-sig-sign-verify-tests/curve-specific/test-secp256k1-def.c" />
+          <file file_name="Application/ecdsa-sig-sign-verify-tests/curve-specific/test-secp256k1-def.h" />
+        </folder>
+      </folder>
+      <folder Name="basic-asn-encode-decode-tests">
+        <file file_name="Application/basic-asn-encode-decode-tests/basic-asn-encode-decode-tests.c" />
+        <file file_name="Application/basic-asn-encode-decode-tests/basic-asn-encode-decode-tests.h" />
+        <file file_name="Application/basic-asn-encode-decode-tests/basic-asn-encode-decode-tests-def.c" />
+        <file file_name="Application/basic-asn-encode-decode-tests/basic-asn-encode-decode-tests-def.h" />
+      </folder>
     </folder>
     <folder Name="ndn-lite">
       <file file_name="../ndn-lite/ndn-constants.h" />

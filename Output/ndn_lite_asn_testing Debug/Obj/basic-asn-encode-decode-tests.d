@@ -1,16 +1,15 @@
 Output/ndn_lite_asn_testing\ Debug/Obj/basic-asn-encode-decode-tests.o: \
- C:\Users\edwar\Desktop\ndn-lite-work\ndn-lite-asn-testing\Application\basic-asn-encode-decode-tests.c \
- C:\Users\edwar\Desktop\ndn-lite-work\ndn-lite-asn-testing\Application\basic-asn-encode-decode-tests.h \
+ C:\Users\edwar\Desktop\ndn-lite-work\ndn-lite-asn-testing\Application\basic-asn-encode-decode-tests\basic-asn-encode-decode-tests.c \
+ C:\Users\edwar\Desktop\ndn-lite-work\ndn-lite-asn-testing\Application\basic-asn-encode-decode-tests\basic-asn-encode-decode-tests.h \
  C:/Program\ Files/SEGGER/SEGGER\ Embedded\ Studio\ for\ ARM\ 4.10/include/stdint.h \
  C:/Program\ Files/SEGGER/SEGGER\ Embedded\ Studio\ for\ ARM\ 4.10/include/stdbool.h \
  C:/Program\ Files/SEGGER/SEGGER\ Embedded\ Studio\ for\ ARM\ 4.10/include/stddef.h \
  C:/Program\ Files/SEGGER/SEGGER\ Embedded\ Studio\ for\ ARM\ 4.10/include/__crossworks.h \
- c:\users\edwar\desktop\ndn-lite-work\ndn-lite\ndn-constants.h \
- C:\Users\edwar\Desktop\ndn-lite-work\ndn-lite-asn-testing\Application\test-helpers.h \
- C:\Users\edwar\Desktop\ndn-lite-work\ndn-lite-asn-testing\Application\basic-asn-encode-decode-tests-def.h \
- c:\users\edwar\desktop\ndn-lite-work\ndn-lite\ndn-error-code.h \
+ Application/../../ndn-lite/ndn-constants.h Application/test-helpers.h \
+ C:\Users\edwar\Desktop\ndn-lite-work\ndn-lite-asn-testing\Application\basic-asn-encode-decode-tests\basic-asn-encode-decode-tests-def.h \
+ Application/../../ndn-lite/ndn-error-code.h \
  C:/Program\ Files/SEGGER/SEGGER\ Embedded\ Studio\ for\ ARM\ 4.10/include/inttypes.h \
- c:\users\edwar\desktop\ndn-lite-work\ndn-lite\adaptation\ndn-nrf-ble-adaptation\nrf-logger.h \
+ Application/../../ndn-lite/adaptation/ndn-nrf-ble-adaptation/nrf-logger.h \
  C:/Program\ Files/SEGGER/SEGGER\ Embedded\ Studio\ for\ ARM\ 4.10/include/stdio.h \
  ../../nRF5_SDK_15.2.0_9412b96/components/libraries/log/nrf_log.h \
  ../../nRF5_SDK_15.2.0_9412b96/components/libraries/util/sdk_common.h \
@@ -45,13 +44,13 @@ Output/ndn_lite_asn_testing\ Debug/Obj/basic-asn-encode-decode-tests.o: \
  ../../nRF5_SDK_15.2.0_9412b96/components/libraries/log/nrf_log_instance.h \
  ../../nRF5_SDK_15.2.0_9412b96/components/libraries/log/nrf_log_types.h \
  ../../nRF5_SDK_15.2.0_9412b96/components/libraries/log/nrf_log_types.h \
- c:\users\edwar\desktop\ndn-lite-work\ndn-lite\security\ndn-lite-sec-config.h \
- c:\users\edwar\desktop\ndn-lite-work\ndn-lite\security\detail/default-backend/ndn-lite-default-sha-impl.h \
- c:\users\edwar\desktop\ndn-lite-work\ndn-lite\security\detail/nordic-sdk-nrf-backend/ndn-lite-nrf-crypto-rng-impl.h \
- c:\users\edwar\desktop\ndn-lite-work\ndn-lite\security\detail/default-backend/ndn-lite-default-aes-impl.h \
- c:\users\edwar\desktop\ndn-lite-work\ndn-lite\security\detail/default-backend/ndn-lite-default-ecc-impl.h \
- c:\users\edwar\desktop\ndn-lite-work\ndn-lite\security\detail/default-backend/sec-lib/tinycrypt/tc_ecc.h \
- c:\users\edwar\desktop\ndn-lite-work\ndn-lite\security\detail/default-backend/sec-lib/micro-ecc/uECC.h \
+ Application/../../ndn-lite/security/ndn-lite-sec-config.h \
+ Application/../../ndn-lite/security/detail/default-backend/ndn-lite-default-sha-impl.h \
+ Application/../../ndn-lite/security/detail/nordic-sdk-nrf-backend/ndn-lite-nrf-crypto-rng-impl.h \
+ Application/../../ndn-lite/security/detail/default-backend/ndn-lite-default-aes-impl.h \
+ Application/../../ndn-lite/security/detail/default-backend/ndn-lite-default-ecc-impl.h \
+ Application/../../ndn-lite/security/detail/default-backend/sec-lib/tinycrypt/tc_ecc.h \
+ Application/../../ndn-lite/security/detail/default-backend/sec-lib/micro-ecc/uECC.h \
  c:\users\edwar\desktop\ndn-lite-work\ndn-lite\ndn-constants.h \
- c:\users\edwar\desktop\ndn-lite-work\ndn-lite\security\detail/default-backend/ndn-lite-default-hmac-impl.h \
- c:\users\edwar\desktop\ndn-lite-work\ndn-lite\security\ndn-lite-sec-utils.h
+ Application/../../ndn-lite/security/detail/default-backend/ndn-lite-default-hmac-impl.h \
+ Application/../../ndn-lite/security/ndn-lite-sec-utils.h
