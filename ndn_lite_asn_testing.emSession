@@ -62,7 +62,7 @@
   <Watches active="0" update="Never"/>
  </Watch4>
  <Files>
-  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="20" useTextEdit="1" useBinaryEdit="0" left="0" path="Application/main.c" selected="1" top="18" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="10" useTextEdit="1" useBinaryEdit="0" left="0" path="Application/main.c" selected="1" top="0" codecName="Default"/>
   <SessionOpenFile windowGroup="DockEditLeft" x="0" y="269" useTextEdit="1" useBinaryEdit="0" left="0" path="Application/ecdsa-sig-sign-verify-tests-def.c" selected="0" top="253" codecName="Default"/>
   <SessionOpenFile windowGroup="DockEditLeft" x="0" y="66" useTextEdit="1" useBinaryEdit="0" left="0" path="Application/ecdsa-sig-sign-verify-tests-def.h" selected="0" top="44" codecName="Default"/>
   <SessionOpenFile windowGroup="DockEditLeft" x="0" y="63" useTextEdit="1" useBinaryEdit="0" left="0" path="../ndn-lite/security/detail/default-backend/sec-lib/micro-ecc/uECC.h" selected="0" top="40" codecName="Default"/>
