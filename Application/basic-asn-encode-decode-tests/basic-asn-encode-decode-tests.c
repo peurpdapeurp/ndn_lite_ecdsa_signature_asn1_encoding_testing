@@ -35,8 +35,6 @@ void _run_basic_asn_encode_decode_test(basic_asn_encode_decode_test_t *test) {
 
   char *test_name = test->test_names[test->test_name_index];
 
-  NRF_APP_LOG("Running basic asn encoding and decoding test, test name: %s\n", test_name);
-
   uint32_t asn1_encoded_sig_len = 0;
   int ret_val = 0;
   uint32_t decoded_sig_len = 0;

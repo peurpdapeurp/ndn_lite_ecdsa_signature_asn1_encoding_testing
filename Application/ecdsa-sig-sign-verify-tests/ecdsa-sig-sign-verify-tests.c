@@ -52,8 +52,6 @@ void _run_ecdsa_sig_sign_verify_test(ecdsa_sig_sign_verify_test_t *test) {
 
   char *test_name = test->test_names[test->test_name_index];
 
-  NRF_APP_LOG("Running ecdsa signature signing and verification test, test name: %s\n", test_name);
-
   int ret_val = -1;
 
   encoder_init(&test_encoder, test_encoder_buffer, TEST_ENCODER_BUFFER_LEN);

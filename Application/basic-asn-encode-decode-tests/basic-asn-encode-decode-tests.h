@@ -8,8 +8,8 @@
  * See AUTHORS.md for complete list of NDN IOT PKG authors and contributors.
  */
 
-#ifndef HARDCODED_EXPERIMENTATION_H
-#define HARDCODED_EXPERIMENTATION_H
+#ifndef BASIC_ASN_ENCODE_DECODE_TESTS_H
+#define BASIC_ASN_ENCODE_DECODE_TESTS_H
 
 #include <stdint.h>
 #include <stdbool.h>
@@ -35,4 +35,4 @@ typedef struct {
   bool *passed;
 } basic_asn_encode_decode_test_t;
 
-#endif // HARDCODED_EXPERIMENTATION_H
+#endif // BASIC_ASN_ENCODE_DECODE_TESTS_H
